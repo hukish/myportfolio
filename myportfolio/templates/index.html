@@ -1,0 +1,260 @@
+{% extends 'base.html' %} {% load static%} {% block content %}
+<div class="content  text-white">
+    <section id="home">
+        <div class="overlay2">
+            <header>
+                <div class="menu-toggler">
+                    <div class="bar half start"></div>
+                    <div class="bar "></div>
+                    <div class="bar half end"></div>
+                </div>
+                <div class="intro " style="background:url('/static/images/coffe.jpg'); height: 100vh; background-size: cover; background-position: center;">
+                    <div class="overlay2">
+
+                        <nav class=" top-nav">
+                            <ul class="nav nav-list">
+                                <li><a href="/" class="nav-link">Home</a></li>
+                                <li><a href="#about" class="nav-link">About</a></li>
+                                <li><a href="#portfolio" class="nav-link">Applications</a></li>
+                                <li><a href="#contact" class="nav-link">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <div class="landing-text pt-5">
+                            <div class="container">
+                                <div class="row pt-5">
+                                    <div class="col-md-12 text-center">
+                                        <h1 class="">Hudson Kishoyian</h1>
+                                        <h5 class="pb-3 font-weight-bold">UI Designer and Fullstack Developer</h5>
+                                        <small style="opacity:0.9;">Football lover</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </section>
+    <div class="index">
+        <section class="about mt-5 pt-5" id="about">
+            <div class="section-heading text-center">
+                <h1>About</h1>
+                <h6>Myself</h6>
+            </div>
+            <div class="about-details">
+                <div class="container-fluid">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h6 class="text-center "><small class="" style="opacity:0.5;">~ Professionally</small></h6>
+                                <p class="">
+                                    I'm a passionate web developer.I have acquired skills and knowledge necessary to make a succesful project. I enjoy every step of the design process, from discussion, collaboration to concept and execution.
+                                    <br> I love collaborating and working with a group because I get to learn a lot and improve my skills.
+                                </p>
+                                <br>
+                                <h6 class="text-center "><small style="opacity:0.5;">~ Apart From Coding</small></h6>
+                                <p class="">I'm also in love with football, I like watching premier league and also going to watch local tournaments in the neighborhood on weekends.
+                                    <br> I love adventure ,i travel alot when am free </p>
+                                <br>
+                            </div>
+                            <div class="col-md-2"></div>
+                            <div class="col-md-4">
+                                <h6 class="ml-5 mt-2"><small class="" style="opacity:0.5;">~Skills</small></h6>
+                                <ul>
+                                    <li class="python"><strong>Python</strong><img class="pyicon ml-1" src="{% static 'images/py.png' %}" alt="" width="20%"></li>
+                                    <li class="ftext"><strong>Flask</strong><img class="flask ml-1" src="{% static 'images/flasklogo1.png' %}" alt="" width="18%"></li>
+                                    <li class="django"><strong>Django</strong><img class="djangoicon" src="{% static 'images/django1.jpg' %}" alt="" width="20%"></li>
+                                    <li class="js"><strong>Javascript</strong><img class="jsicon" src="{% static 'images/jjs.png' %}" alt="" width="20%"></li>
+                                    <li class="bootstrap"><strong>Bootstrap</strong><img class="booticon" src="{% static 'images/boot1.png' %}" alt="" width="20%"></li>
+                                    <li class="css"><strong>CSS3</strong><img class="cssicon" src="{% static 'images/css1.jpg' %}" alt="" width="20%"></li>
+                                    <li class="html"><strong>HTML5</strong><img class="htmlicon" src="{% static 'images/html.png' %}" alt="" width="20%"></li>
+                                    <li class="angular"><strong>Angular</strong><img class="angularicon ml-1" src="{% static 'images/angular1.png' %}" alt="" width="20%"></li>
+
+                                </ul>
+                                <!-- <img src="{% static 'images/mio.jpg' %}" alt=""> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio mt-5 pt-3 mb-5 pb-5" id="portfolio">
+            <div class="container">
+                <div class="section-heading text-center mt-5 mr-5">
+                    <h1>Portfolio</h1>
+                </div>
+                <div class="portfolio-item">
+                    <div class="container-fluid bg-transparent">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="portfolio-img content">
+                                    <!-- Card -->
+                                    <div class="">
+                                        <div class="card pb-1">
+                                            <div class="view overlay">
+                                                <img src="{% static 'images/pizza.png'%}" class="card-img-top img-thumbnail" width="100%">
+                                            </div>
+                                            <!-- Card content -->
+                                            <div class="">
+                                                <!-- Title -->
+                                                <h6 class="card-title text-dark text-center text-uppercase mt-2">Project Review</h6>
+                                                <!-- Text -->
+                                                <p class="card-text text-dark ml-3"><small>Project-Review is a platform where users can upload their projects and project detail, the project is to be rated and reviewed by other users.</small></p>
+                                                <!-- Button -->
+                                                <a href="https://github.com/hukish/pizza.git" target="_blank" class="btn btn-elegant btn-sm ml-5 mt-4">Visit site</a>
+                                                <a href="https://hukish.github.io/pizza-order" target="_blank" class="btn btn-elegant btn-sm mt-4 ml-5 ">Details</a>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!-- Card -->
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="portfolio-img content">
+                                    <!-- Card -->
+                                    <div class="">
+                                        <div class="card">
+                                            <div class="view overlay">
+                                                <img src="{% static 'images/awards.png'%}" class="card-img-top img-thumbnail" width="100%">
+                                            </div>
+                                            <!-- Card content -->
+                                            <div class="">
+                                                <!-- Title -->
+                                                <h6 class="card-title text-dark text-center text-uppercase mt-2">Awards</h6>
+                                                <!-- Text -->
+                                                <p class="card-text text-dark ml-3"><small>its a website where a person can post a project for others to rate .</small></p>
+                                                <!-- Button -->
+                                                <a href="https://hukishawwards.herokuapp.com/" target="_blank" class="btn btn-elegant btn-sm ml-5">Visit site</a>
+                                                <a href="https://github.com/hukish/-Awwards" target="_blank" class="btn btn-elegant btn-sm ml-5">Details</a>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!-- Card -->
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="portfolio-img content">
+                                    <!-- Card -->
+                                    <div class="">
+                                        <div class="card">
+                                            <div class="view overlay">
+                                                <img src="{% static 'images/movie.png'%}" class="card-img-top img-thumbnail" width="100%">
+                                            </div>
+                                            <!-- Card content -->
+                                            <div class="">
+                                                <!-- Title -->
+                                                <h6 class="card-title text-dark text-center text-uppercase mt-2">Watchlist</h6>
+                                                <!-- Text -->
+                                                <p class="card-text text-dark ml-3"><small>movie is a web application that allow users to search for the latest movies.</small></p>
+                                                <!-- Button -->
+                                                <a href="https://angulaa.herokuapp.com/" target="_blank" class="btn btn-elegant btn-sm ml-5">Visit site</a>
+                                                <a href="https://github.com/hukish/list-m" target="_blank" class="btn btn-elegant btn-sm ml-5">Details</a>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!-- Card -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 mt-3">
+                                <div class="portfolio-img content">
+                                    <!-- Card -->
+                                    <div class="">
+                                        <div class="card pb-2">
+                                            <div class="view overlay">
+                                                <img src="{% static 'images/delani.png'%}" class="card-img-top img-thumbnail" width="100%">
+                                            </div>
+                                            <!-- Card content -->
+                                            <div class="">
+                                                <!-- Title -->
+                                                <h6 class="card-title text-dark text-center text-uppercase mt-2">Delani-Studio</h6>
+                                                <!-- Text -->
+                                                <p class="card-text text-dark ml-3"><small>Delani Studio deals with a range of services starting from brand-strategy and user experience testing.</small></p>
+                                                <!-- Button -->
+                                                <a href="https://github.com/hukish/Design_Workshop" target="_blank" class="btn btn-elegant btn-sm ml-5 mt-4">Visit site</a>
+                                                <a href="https://github.com/hukish/Delani-Studio" target="_blank" class="btn btn-elegant btn-sm mt-4 ml-5">Details</a>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!-- Card -->
+                                </div>
+                            </div>
+                            <div class="col-md-4 mt-3">
+                                <div class="portfolio-img content">
+                                    <!-- Card -->
+                                    <div class="">
+                                        <div class="card pb-2">
+                                            <div class="view overlay">
+                                                <img src="{% static 'images/gallary.png'%}" class="card-img-top img-thumbnail" width="100%">
+                                            </div>
+                                            <!-- Card content -->
+                                            <div class="">
+                                                <!-- Title -->
+                                                <h6 class="card-title text-dark text-center text-uppercase mt-2">Gallery</h6>
+                                                <!-- Text -->
+                                                <p class="card-text text-dark ml-3"><small>A personal gallery application that you display your photos for others to see..</small></p>
+                                                <!-- Button -->
+                                                <a href="https://hukishgallery.herokuapp.com/" target="_blank" class="btn btn-elegant btn-sm ml-5 mt-4">Visit site</a>
+                                                <a href="https://github.com/hukish/gallery-master" target="_blank" class="btn btn-elegant btn-sm mt-4 ml-5">Details</a>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!-- Card -->
+                                </div>
+                            </div>
+                            <div class="col-md-4 mt-3">
+                                <div class="portfolio-img content">
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="contact mt-5 pt-5" id="contact">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <h1>Contact</h1>
+                    <h6>Let's work together</h6>
+                    <p class="">Email: <small>hudsonhukish@gmail.com</small></p>
+                    <div class="text mr-5 pr-5 ">
+                      
+
+                    </div>
+                    <ul class="nav-list">
+                        <li>
+                            <a href="https://twitter.com/hukish" class="icon-link ml-3">
+                                <i class="fab fa-twitter-square fa-2x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/hukish/" class="icon-link">
+                                <i class="fab fa-linkedin-square fa-2x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/hukish" class="icon-link">
+                                <i class="fab fa-github-square fa-2x"></i>
+                            </a>
+                        </li>
+                        
+                        </p>
+                    </ul>
+                    <a class="cont" href="#home">&#8648;</a>
+                </div>
+            </div>
+        </section>
+        </div>
+    </div>
+    {% endblock %}
